@@ -1,5 +1,5 @@
 # Tutorai
 
-Yes
+Yes\n
 Good
 Show
