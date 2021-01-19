@@ -1,4 +1,4 @@
-# Tutorai
+# Tutorial
 
 Yes
 Good
