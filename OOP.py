@@ -90,6 +90,10 @@ print("Name: " + MrA.getName())
 print("Money: " + str(MrA.getMoney()))
 print("ID: " + MrA.getID())
 
-print(MrA > MrB)
+print("Name: " + MrB.getName())
+print("Money: " + str(MrB.getMoney()))
+print("ID: " + MrB.getID())
 
+print(MrA > MrB)
+print(MrA < MrB)
 
