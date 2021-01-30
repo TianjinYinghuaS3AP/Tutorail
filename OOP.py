@@ -78,7 +78,9 @@ class BankAccount:
     访问类变量 usrCount 与 类方法 getName() 和 getmoney()
 
 
-    重点思考: 为什么访问 usrCount 要用 "BankAccount.usrCount" 而不是 "MrA.usrCount" 或 "Mr.B usrCount"
+    重点思考: 
+            *为什么访问 usrCount 要用 "BankAccount.usrCount" 而不是 "MrA.usrCount" 或 "Mr.B usrCount"
+            *当我print("Name: " + MrA.getName)代表什么， 与print("Name: " + MrA.getName())有什么区别
 '''
 
 MrA = BankAccount("Mr.A", 10)
