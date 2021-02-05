@@ -1,6 +1,8 @@
 《Python》课程纲要
 ===
 
+Python官方文档: https://docs.python.org/zh-cn/3/
+
 ***斜体* 为可选的** 
 ***
 
