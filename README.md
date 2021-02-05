@@ -36,6 +36,8 @@
     * If, elif, else
     * While, for, pass, break
     * *迭代器与生成器*
+    * 重要: late binding
+      * 很好的例子: https://stackoverflow.com/questions/3431676/creating-functions-in-a-loop
   * **函数**
     * 定义函数
     * 语法
