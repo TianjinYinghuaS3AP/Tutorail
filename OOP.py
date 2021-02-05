@@ -80,7 +80,7 @@ class BankAccount:
 
     重点思考: 
             *为什么访问 usrCount 要用 "BankAccount.usrCount" 而不是 "MrA.usrCount" 或 "Mr.B usrCount"
-            *当我print("Name: " + MrA.getName)代表什么， 与print("Name: " + MrA.getName())有什么区别
+            *print("Name: " + MrA.getName)代表什么， 与print("Name: " + MrA.getName())有什么区别
 '''
 
 MrA = BankAccount("Mr.A", 10)
