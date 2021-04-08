@@ -60,8 +60,24 @@ def removeElement(arr, val):
 输入: arr = [10,2,5,3]
 返回: true
 '''
-def checkIfExist(self, arr):
+def checkIfExist(arr):
     """
     函数返回布尔值
     """
-    
+
+
+'''--------------------第四题--------------------'''
+
+'''
+把每个arr中的元素都替换成那个元素右边元素中的值最大的元素，如果右边没有元素，则将那个元素替换为-1
+在那之后返回arr
+
+例：
+输入: arr = [17,18,5,4,6,1]
+返回: [18,6,6,6,1,-1]
+'''
+
+def replaceElements(arr):
+    """
+    replaceElements返回修改后的arr
+    """

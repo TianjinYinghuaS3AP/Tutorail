@@ -15,6 +15,8 @@ def doubleTheZero(arr):
             i=i+1
         i+=1
 
+
+
 '''--------------------第二题--------------------'''
 
 def removeElement(arr, val):
@@ -24,9 +26,11 @@ def removeElement(arr, val):
     while val in arr:
         arr.remove(val)
 
+
+
 '''--------------------第三题--------------------'''
 
-def checkIfExist(self, arr):
+def checkIfExist(arr):
     """
     函数返回布尔值
     """
@@ -47,3 +51,41 @@ def checkIfExist(self, arr):
                     return True
             return True
     return False
+
+
+
+'''--------------------第四题--------------------'''
+
+'''
+把每个arr中的元素都替换成那个元素右边元素中的值最大的元素，如果右边没有元素，则将那个元素替换为-1
+'''
+
+def replaceElements(arr):
+    """
+    replaceElements返回修改后的arr
+    """
+    final=[]
+    #for any arr with small length than 1
+    if len(arr)<1:
+        return [-1]
+    else:
+        for i in range(len(arr)):
+            final.append(max(arr[i:]))
+        #rightmost indexed element won't have any higher value
+        final.append(-1)
+        #when you are selecting max it will consider from first index but in our case we are only looking at greatest element on right side 
+        return(final[1:])
+
+def replaceElements_2(self, arr):
+        """
+        第二种解法
+        """
+        max_right = arr[len(arr)-1]
+        arr[len(arr)-1] = -1
+        for i in range(len(arr)-2,-1,-1):
+            temp = arr[i]
+            arr[i]=max_right
+            if max_right<temp:
+                max_right=temp
+                
+        return arr
