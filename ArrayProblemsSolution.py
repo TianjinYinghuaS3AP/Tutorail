@@ -76,7 +76,7 @@ def replaceElements(arr):
         #when you are selecting max it will consider from first index but in our case we are only looking at greatest element on right side 
         return(final[1:])
 
-def replaceElements_2(self, arr):
+def replaceElements_2(arr):
         """
         第二种解法
         """
